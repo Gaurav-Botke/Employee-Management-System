@@ -2,6 +2,8 @@
 
 A full-stack web application to manage employee records efficiently, including Add, View, Update, and Delete (CRUD) operations. Built with Spring MVC, Hibernate, MySQL, and responsive frontend technologies, this project demonstrates a professional approach to Java-based web development.
 
+---
+
 ## Features
 
 - **Add Employee**  
@@ -32,6 +34,8 @@ A full-stack web application to manage employee records efficiently, including A
 - **Build Tools:** Maven / Gradle  
 - **IDE:** Eclipse (with Spring Tool Suite)
 
+---
+
 - ## Project Structure
 
 EmployeeManagementSystem/
@@ -44,6 +48,7 @@ EmployeeManagementSystem/
 
 
 ---
+
 ## Setup & Installation
 
 1. **Clone the repository:**
@@ -66,8 +71,35 @@ Access the Application:
 Open browser → http://localhost:8080/
 
 ---
+
 Screenshots
 
 Home Page
 <img width="1873" height="1020" alt="image" src="https://github.com/user-attachments/assets/8b4aa876-f6c4-4007-a79c-e80836b83eee" />
+
+View Employee
+![Add Employee](images/viewEmp_page.png)
+
+Add Employee
+![Add Employee](images/addEmp_page.png)
+
+Edit Employee
+![Add Employee](images/editEmp_page.png)
+
+-----
+
+Future Improvements
+
+Add authentication and authorization for secure access.
+
+Implement pagination and search filters for large employee lists.
+
+Enhance UI with modern frameworks like React or Angular.
+
+--
+
+Author
+
+Your Name – Gaurav-Botke
+
 
