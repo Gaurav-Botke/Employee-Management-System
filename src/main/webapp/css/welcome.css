@@ -1,0 +1,54 @@
+/* General Body */
+body {
+    background: aliceblue; /* instead of #f4f6f9 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(90deg, royalblue, midnightblue); /* instead of #4b6cb7, #182848 */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Custom Button */
+.btn-custom {
+    background-color: tomato; /* instead of #ff6b6b */
+    border: none;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: red; /* instead of #ff4757 */
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+}
+.feature-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    transition: transform 0.3s;
+}
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+    background: midnightblue; /* instead of #182848 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
